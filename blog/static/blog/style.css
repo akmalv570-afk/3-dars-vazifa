@@ -1,0 +1,52 @@
+.post-header h2{
+    margin: 30px 0;
+    letter-spacing: 1.5;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.post-header p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: oklch(0.556 0 0);
+}
+
+.post h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: oklch(0.145 0 0);
+    margin-bottom: 20px;
+}
+
+.post-sana{
+    font-size: 14px;
+    color: oklch(0.556 0 0);
+    margin-bottom: 26px;
+}
+
+.post-content{
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.post{
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+.post:last-child{
+    border: none;
+}
+
+
+.article h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.article p{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1.2;
+} 

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block head %}
+    <link rel="stylesheet" href="{% static "blog/style.css" %}">
+{% endblock head %}
+{% block title %}Index title{% endblock title %}
+{% block content %}
+<div class="post-header">
+    <h2>{% block post_sarlavha %}{% endblock post_sarlavha %}</h2>
+    <p>{% block post_sarlavha_izohi %}{% endblock post_sarlavha_izohi %}</p>
+</div>
+<div class="posts">
+    {% block postlar %}{% endblock postlar %}
+</div>
+{% endblock content %}

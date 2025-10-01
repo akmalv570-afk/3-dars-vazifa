@@ -1,0 +1,15 @@
+{% extends "blog/postlar.html" %}
+
+{% block post_sarlavha %}Songgi maqolalar{% endblock post_sarlavha %}
+{% block post_sarlavha_izohi %}Web developmentga oid maqolalar{% endblock post_sarlavha_izohi %}
+{% block postlar %}
+    {% for post in posts %}
+        <div class="post">
+            <h3><a href="/posts/{{post.id}}">{{post.title}}</a></h3>
+            <p class="post-sana">{{post.date}}</p>
+            <p class="post-content">{{post.content}}</p>
+        </div>
+    {% empty%}
+        <p>Postlar hali yo'q</p>
+    {% endfor %}
+{% endblock postlar %}
