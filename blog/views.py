@@ -40,7 +40,7 @@ postlar =  [
 ]
 
 
-# Create your views here.
+
 def index(request):
     songgi_yangiliklar = [post for post in postlar if "last" in post["tags"]]
     data = {
